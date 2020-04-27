@@ -17,9 +17,9 @@ devtools::install_github("ropenscilabs/icon")
 
 3. Edit `index.rmd`
 
-4. Deploy
+4. Knit
 
-5. Knit
+5. Deploy
 
 6. Profit.
 
