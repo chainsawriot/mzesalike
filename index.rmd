@@ -112,7 +112,7 @@ leaflet(width = "80%") %>% addTiles() %>% setView(8.4566, 49.4874, zoom = 20)
 
 ???
 
-Do you know that you have presentor notes too?
+Do you know that you have presenter notes too?
 
 ---
 background-image: url(https://media1.tenor.com/images/28ee6748d1e75ed138a58dfda27a0469/tenor.gif?itemid=4855087)
