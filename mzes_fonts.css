@@ -18,6 +18,7 @@ h1, h2, h3 {
 
 .remark-code, .remark-inline-code {
     font-family: 'Fira Code', monospace;
+    font-size: 1em;
 }
 
 .remark-code-line-highlighted {

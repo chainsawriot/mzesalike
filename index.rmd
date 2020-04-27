@@ -17,7 +17,7 @@ output:
 # We are the world
 
 ```r
-# Why you should put this code in all of your scripts?
+# Why should you put this code in all of your scripts?
 
 rm(list = ls(all=TRUE))
 hello <- "world!"
@@ -38,7 +38,7 @@ $$\bar{X}=\frac{1}{n}\sum_{i=1}^nX_i$$
 
 ```{r, echo = FALSE}
 library(knitr)
-kable(iris[1:5, ], caption = "We're saving our own lives", format = 'html')
+kable(iris[1:5, ], caption = "Table 1: We're saving our own lives", format = 'html')
 ```
 
 ---
