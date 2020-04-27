@@ -82,9 +82,9 @@ But if you just believe there's no way we can fall
 
 #  let us realize
 
-```{r, echo = FALSE}
+```{r, echo = FALSE, width = 40}
 library(leaflet)
-leaflet() %>% addTiles() %>% setView(8.4544165, 49.4873687, zoom = 20)
+leaflet(width = "80%") %>% addTiles() %>% setView(8.4566, 49.4874, zoom = 20)
 ```
 
 ---
@@ -131,4 +131,4 @@ When we stand together as one
 Not an official product.
 
 - `r icon::fa("twitter")` @chainsawriot 
-- `r icon::fa("github")` @chainsawriot
+- `r icon::fa("github")` [chainsawriot/mzes_alike](https://github.com/chainsawriot/mzes_alike)

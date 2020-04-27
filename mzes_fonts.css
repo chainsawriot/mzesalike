@@ -16,5 +16,10 @@ h1, h2, h3 {
     font-weight: bold;
 }
 
-.remark-code, .remark-inline-code { font-family: 'Fira Code', monospace; }
-.remark-code-line-highlighted     { background-color: #ffff88; }
+.remark-code, .remark-inline-code {
+    font-family: 'Fira Code', monospace;
+}
+
+.remark-code-line-highlighted {
+    background-color: #ffff88;
+}

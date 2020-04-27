@@ -45,8 +45,13 @@ strong {
   color: #00597E;
 }
 
+a {
+    color: #b98b44
+}
+
 .imagelab {
     font-size: 50px;
     color: #00597E;
     background-color: #FFFFFF;
 }
+
