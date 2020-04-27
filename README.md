@@ -19,5 +19,7 @@ devtools::install_github("ropenscilabs/icon")
 
 4. Deploy
 
-5. Profit.
+5. Knit
+
+6. Profit.
 
