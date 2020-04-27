@@ -1,6 +1,6 @@
 # mzes_alike
 
-A theme for [xaringan](https://cran.r-project.org/web/packages/xaringan/index.html)
+A theme for [xaringan](https://cran.r-project.org/web/packages/xaringan/index.html) [[Demo](https://chainsawriot.github.io/mzes_alike/)]
 
 Not an official product.
 
