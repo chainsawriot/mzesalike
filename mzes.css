@@ -1,0 +1,52 @@
+.title-slide {
+  background-image: url(mzes_dots.png), url(mzes_logo.png), url(unima_logo.png);
+  background-position: 4% 10%, 10% 100%, 90% 100%;
+  background-size: 550px, 250px, 200px;
+  background-color: #fff;
+}
+
+.title-slide h1 {
+  color: #00597E;
+  padding-top: 250px;
+  font-weight: bold;
+  font-size: 45px;
+  text-align: left;
+  text-shadow: none;
+  padding-bottom: 18px;
+  margin-bottom: 18px;
+}
+
+.title-slide h2 {
+  color: #b98b44;
+  font-size: 30px;
+  text-align: left;
+  text-shadow: none;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+.title-slide h3 {
+  font-size: 20px;
+  font-weight: normal;
+  color: #8c8e8e;
+  text-align: left;
+  text-shadow: none;
+  padding: 0px;
+  margin: 0px;
+  line-height: 1;
+}
+
+
+h1 {
+  color: #00597E;
+}
+
+strong {
+  color: #00597E;
+}
+
+.imagelab {
+    font-size: 50px;
+    color: #00597E;
+    background-color: #FFFFFF;
+}
