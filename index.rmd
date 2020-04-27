@@ -106,7 +106,7 @@ leaflet(width = "80%") %>% addTiles() %>% setView(8.4566, 49.4874, zoom = 20)
 
 [2] Or you can press **p**
 
-
+[3] Or you can press **f** for full screen
 
 ]
 
