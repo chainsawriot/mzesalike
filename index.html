@@ -4,8 +4,12 @@
     <title>A wonderful MZES presentation made with xaringan</title>
     <meta charset="utf-8" />
     <meta name="author" content="Chung-hong Chan" />
-    <meta name="date" content="2020-04-27" />
+    <meta name="date" content="2020-04-30" />
     <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
+    <link href="libs/tile-view-0.0.14/tile-view.css" rel="stylesheet" />
+    <script src="libs/tile-view-0.0.14/tile-view.js"></script>
+    <link href="libs/animate.css-xaringan-3.7.2/animate.fade.css" rel="stylesheet" />
+    <script src="libs/xaringanExtra-logo-0.0.14/logo.js"></script>
     <script src="libs/htmlwidgets-1.5.1/htmlwidgets.js"></script>
     <script src="libs/jquery-1.12.4/jquery.min.js"></script>
     <link href="libs/leaflet-1.3.1/leaflet.css" rel="stylesheet" />
@@ -26,9 +30,23 @@ class: center, middle, inverse, title-slide
 # A wonderful MZES presentation made with xaringan
 ## weil du wunderbar bist!
 ### Chung-hong Chan
-### 2020-04-27
+### 2020-04-30
 
 ---
+
+
+<style type="text/css">
+.xaringan-extra-logo {
+  width: 250px;
+  height: 128px;
+  z-index: 0;
+  background-image: url('mzes_logo.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  top:1em;right:1em;
+}
+</style>
 
 
 # We are the world
@@ -122,6 +140,7 @@ class: center
 But if you just believe there's no way we can fall
 
 ---
+class: no-animation
 
 * Well
 
@@ -141,8 +160,8 @@ But if you just believe there's no way we can fall
 
 #  let us realize
 
-<div id="htmlwidget-0128b0331513f6f245a8" style="width:80%;height:504px;" class="leaflet html-widget"></div>
-<script type="application/json" data-for="htmlwidget-0128b0331513f6f245a8">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["//{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"http://openstreetmap.org\">OpenStreetMap<\/a> contributors, <a href=\"http://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA<\/a>"}]}],"setView":[[49.4874,8.4566],20,[]]},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-561ed09078a71480c121" style="width:80%;height:504px;" class="leaflet html-widget"></div>
+<script type="application/json" data-for="htmlwidget-561ed09078a71480c121">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["//{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"http://openstreetmap.org\">OpenStreetMap<\/a> contributors, <a href=\"http://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA<\/a>"}]}],"setView":[[49.4874,8.4566],20,[]]},"evals":[],"jsHooks":[]}</script>
 
 ---
 
@@ -165,6 +184,9 @@ But if you just believe there's no way we can fall
 
 [3] Or you can press **f** for full screen
 
+[4] Or you can press **o** for an overview
+
+
 ]
 
 ???
@@ -175,7 +197,7 @@ Do you know that you have presenter notes too?
 background-image: url(https://media1.tenor.com/images/28ee6748d1e75ed138a58dfda27a0469/tenor.gif?itemid=4855087)
 background-position: center
 background-size: cover
-class: center, bottom
+class: hide-logo, center, bottom
 
 .imagelab[
 When we stand together as one

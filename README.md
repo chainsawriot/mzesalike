@@ -13,6 +13,7 @@ Not an official product.
 ```r
 install.packages(c("xaringan", "leaflet"))
 devtools::install_github("ropenscilabs/icon")
+devtools::install_github("chainsawriot/xaringanExtra")
 ```
 
 3. Edit `index.rmd`
