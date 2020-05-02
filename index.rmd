@@ -3,6 +3,9 @@ title: "A wonderful MZES presentation made with xaringan"
 subtitle: "weil du wunderbar bist!"
 author: "Chung-hong Chan"
 date: "`r Sys.Date()`"
+params:
+  animation: "fade"
+  twitter: ""
 output:
   xaringan::moon_reader:
     css: [default, mzes_fonts.css, mzes.css]
@@ -16,8 +19,7 @@ output:
 
 ```{r xaringanExtra, echo = FALSE}
 xaringanExtra::use_tile_view()
-## Control the transitional animation. Change it to one of the followings: "slide_left", "slide_right", "slide_up", "slide_down", "roll", "fade"
-xaringanExtra::use_animate_all("fade")
+xaringanExtra::use_animate_all(params$animation)
 xaringanExtra::use_logo(image_url = "mzes_logo.png", width = 280)
 ```
 
