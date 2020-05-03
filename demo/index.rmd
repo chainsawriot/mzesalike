@@ -20,7 +20,7 @@ output:
 ```{r xaringanExtra, echo = FALSE}
 xaringanExtra::use_tile_view()
 xaringanExtra::use_animate_all(params$animation)
-xaringanExtra::use_logo(image_url = "mzes_logo.png", width = 280)
+xaringanExtra::use_logo(image_url = "img/mzes_logo.png", width = 280)
 ```
 
 
@@ -58,7 +58,7 @@ kable(iris[1:5, ], caption = "Table 1: We're saving our own lives", format = 'ht
 ```{r, echo = FALSE, results = "asis", fig.height = 5}
 ## Make sure to use a larger font size!
 library(ggplot2)
-ggplot(data.frame(x = c(3,4,5), y = c(1,2,3)), aes(x = x, y = y)) + geom_point() + xlab("Just you") + ylab("and me.") + theme(text = element_text(size=20))
+ggplot(data.frame(x = c(3,4,5), y = c(1,2,3)), aes(x = x, y = y)) + geom_point() + xlab("Just you") + ylab("and me.") + theme(text = element_text(size=30))
 ```
 
 ---
@@ -69,7 +69,7 @@ class: inverse, middle, center
 ---
 class: center, hide-logo
 
-![](mzes_logo.png)
+![](img/mzes_logo.png)
 
 .large[But if you just believe there's no way we can fall]
 
@@ -113,7 +113,7 @@ leaflet(width = "80%") %>% addTiles() %>% setView(8.4566, 49.4874, zoom = 20)
 ]
 
 .pull-right[
-![](unima_logo.png)
+![](img/unima_logo.png)
 ]
 
 .small[.footnote[
@@ -144,9 +144,9 @@ When we stand together as one
 
 ---
 
-# mzes_alike
+# mzesalike
 
 Not an official product.
 
 - `r icon::fa("twitter")` @chainsawriot 
-- `r icon::fa("github")` [chainsawriot/mzes_alike](https://github.com/chainsawriot/mzes_alike)
+- `r icon::fa("github")` [chainsawriot/mzesalike](https://github.com/chainsawriot/mzesalike)

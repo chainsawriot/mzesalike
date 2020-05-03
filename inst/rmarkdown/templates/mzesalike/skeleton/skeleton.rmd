@@ -1,0 +1,152 @@
+---
+title: "A wonderful MZES presentation made with xaringan"
+subtitle: "weil du wunderbar bist!"
+author: "Chung-hong Chan"
+date: "`r Sys.Date()`"
+params:
+  animation: "fade"
+  twitter: ""
+output:
+  xaringan::moon_reader:
+    css: [default, mzes_fonts.css, mzes.css]
+    lib_dir: libs
+    nature:
+      countdown: 60000
+      highlightStyle: github
+      countIncrementalSlides: false
+      ratio: '16:9'
+---
+
+```{r xaringanExtra, echo = FALSE}
+xaringanExtra::use_tile_view()
+xaringanExtra::use_animate_all(params$animation)
+xaringanExtra::use_logo(image_url = "img/mzes_logo.png", width = 280)
+```
+
+
+# We are the world
+
+```r
+# Why should you put this code in all of your scripts?
+
+rm(list = ls(all=TRUE))
+hello <- "world!"
+```
+
+---
+
+# We are the children
+
+* We are the ones who make a **brighter** day
+* .large[So let's *start* giving]
+
+$$\bar{X}=\frac{1}{n}\sum_{i=1}^nX_i$$
+
+---
+
+# There's a choice we're making
+
+```{r, echo = FALSE}
+library(knitr)
+kable(iris[1:5, ], caption = "Table 1: We're saving our own lives", format = 'html')
+```
+
+---
+
+# It's true we'll make a better day
+
+```{r, echo = FALSE, results = "asis", fig.height = 5}
+## Make sure to use a larger font size!
+library(ggplot2)
+ggplot(data.frame(x = c(3,4,5), y = c(1,2,3)), aes(x = x, y = y)) + geom_point() + xlab("Just you") + ylab("and me.") + theme(text = element_text(size=30))
+```
+
+---
+class: inverse, middle, center
+
+# When you're down and out, there seems no hope at all
+
+---
+class: center, hide-logo
+
+![](img/mzes_logo.png)
+
+.large[But if you just believe there's no way we can fall]
+
+---
+class: no-animation
+
+* .extrasmall[Well]
+
+--
+
+* .small[Well]
+
+--
+
+* .large[Well]
+
+--
+
+* .extralarge[Well]
+
+---
+
+#  let us realize
+
+```{r, echo = FALSE, width = 40}
+library(leaflet)
+leaflet(width = "80%") %>% addTiles() %>% setView(8.4566, 49.4874, zoom = 20)
+```
+
+---
+# Oh, that a change 
+
+```{r, echo = FALSE}
+## In case you need to make an incredible dense slide, you should adjust the default font size.
+```
+
+.pull-left[
+- .small[[can](https://conjugator.reverso.net/conjugation-german-verb-k%C3%B6nnen.html)]
+- .small[only]
+- .small[.right[come]]
+]
+
+.pull-right[
+![](img/unima_logo.png)
+]
+
+.small[.footnote[
+[1] You know that you can press **h** for help, right?
+
+[2] Or you can press **p**
+
+[3] Or you can press **f** for full screen
+
+[4] Or you can press **o** for an overview
+
+
+]]
+
+???
+
+Do you know that you have presenter notes too?
+
+---
+background-image: url(https://media1.tenor.com/images/28ee6748d1e75ed138a58dfda27a0469/tenor.gif?itemid=4855087)
+background-position: center
+background-size: cover
+class: hide-logo, center, bottom
+
+.imagelab[
+When we stand together as one
+]
+
+---
+
+# mzesalike
+
+Not an official product.
+
+- `r icon::fa("twitter")` @chainsawriot 
+- `r icon::fa("github")` [chainsawriot/mzesalike](https://github.com/chainsawriot/mzesalike)

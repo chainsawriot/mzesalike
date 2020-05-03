@@ -3,7 +3,7 @@
 }
 
 .title-slide {
-  background-image: url(mzes_dots.png), url(mzes_logo.png), url(unima_logo.png);
+  background-image: url(img/mzes_dots.png), url(img/mzes_logo.png), url(img/unima_logo.png);
   background-position: 0% 10%, 10% 98%, 90% 100%;
   background-size: 530px, 320px, 270px;
   background-color: #ffffff;

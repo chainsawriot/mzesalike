@@ -1,0 +1,14 @@
+^LICENSE\.md$
+^README\.Rmd$
+^README\.md$
+^README\.html$
+^trump\.R$
+^\.travis\.yml$
+^codecov\.yml$
+^man/figures/oolong_demo\.gif$
+^doc$
+^Meta$
+^Makefile$
+^CRAN-RELEASE$
+^cran-comments\.md$
+^demo/

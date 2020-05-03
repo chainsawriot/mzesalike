@@ -1,26 +1,42 @@
-# mzes_alike
+# mzesalike
 
-A theme for [xaringan](https://cran.r-project.org/web/packages/xaringan/index.html) [[Demo](https://chainsawriot.github.io/mzes_alike/)]
+Previously known as `mzes_alike`
+
+A theme for [xaringan](https://cran.r-project.org/web/packages/xaringan/index.html) [[Demo](https://chainsawriot.github.io/mzesalike/)]
 
 Not an official product.
 
-## Usage
+## Comparison
 
-1. Clone this repo
+Original (Powerpoint)             |  mzesalike (HTML5)
+:-------------------------:|:-------------------------:
+<img src = "man/figures/originalmzes.png" height = "300">  |  <img src = "man/figures/mzesalike.png" height = "300">
 
-2. Install the following packages
+## Installation
 
 ```r
-install.packages(c("xaringan", "leaflet"))
-devtools::install_github("ropenscilabs/icon")
-devtools::install_github("chainsawriot/xaringanExtra")
+devtools::install_github("chainsawriot/mzesalike")
 ```
 
-3. Edit `index.rmd`
+## Usage
 
-4. Knit
+If you are using RStudio, you can create a new `mzesalike` presentation by
 
-5. Deploy
+1. *File* -> *R Markdown...*
 
-6. Profit.
+<img src = "man/figures/rstudio1.png" width = "300" align = "center">
+
+2. *From Template* -> *Slide Template for MZES*
+
+<img src = "man/figures/rstudio2.png" width = "300" align = "center">
+
+If you are not using RStudio (e.g. me), you can create a new presentation like so:
+
+```r
+## Create a new direction
+dir.create('demo')
+
+## Create a template
+rmarkdown::draft('demo/index.rmd', template = 'mzesalike', package = 'mzesalike', edit = FALSE)
+```
 
