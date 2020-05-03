@@ -11,4 +11,5 @@
 ^Makefile$
 ^CRAN-RELEASE$
 ^cran-comments\.md$
-^demo/
+^docs/
+\.Rhistory
