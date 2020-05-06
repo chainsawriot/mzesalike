@@ -1,6 +1,6 @@
 Package: mzesalike
 Title: Xaringan Template With MZES Theme
-Version: 0.0.2
+Version: 0.0.3
 Authors@R: 
     person(given = "Chung-hong",
            family = "Chan",
@@ -15,9 +15,9 @@ Imports:
     xaringan,
     xaringanExtra (>= 0.0.14),
     leaflet,
-    icon
+    fontawesome
 Remotes:
     yihui/xaringan,
     chainsawriot/xaringanExtra,
-    ropenscilabs/icon
+    rstudio/fontawesome
 RoxygenNote: 7.1.0

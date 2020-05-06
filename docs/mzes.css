@@ -80,3 +80,18 @@ a {
 .extrasmall {
     font-size: 50%
 }
+
+div.my-footer {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    height: 20px;
+    width: 100%;
+}
+
+div.my-footer span {
+    color: #8c8e8e;
+    position: absolute;
+    left: 30px;
+    bottom: 12px;
+}

@@ -8,7 +8,7 @@ Not an official product.
 
 ## Comparison
 
-Original (Powerpoint)             |  mzesalike (HTML5)
+Original (PowerPoint)             |  mzesalike (HTML5)
 :-------------------------:|:-------------------------:
 <img src = "man/figures/originalmzes.png" height = "300">  |  <img src = "man/figures/mzesalike.png" height = "300">
 

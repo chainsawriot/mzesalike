@@ -5,7 +5,7 @@ author: "Chung-hong Chan"
 date: "`r Sys.Date()`"
 params:
   animation: "fade"
-  twitter: ""
+  twitter: "chainsawriot"
 output:
   xaringan::moon_reader:
     css: [default, mzes_fonts.css, mzes.css]
@@ -21,6 +21,7 @@ output:
 xaringanExtra::use_tile_view()
 xaringanExtra::use_animate_all(params$animation)
 xaringanExtra::use_logo(image_url = "img/mzes_logo.png", width = 280)
+mzesalike::use_footer(params)
 ```
 
 
@@ -91,6 +92,7 @@ class: no-animation
 * .extralarge[Well]
 
 ---
+class: hide-footer
 
 #  let us realize
 
@@ -136,17 +138,18 @@ Do you know that you have presenter notes too?
 background-image: url(https://media1.tenor.com/images/28ee6748d1e75ed138a58dfda27a0469/tenor.gif?itemid=4855087)
 background-position: center
 background-size: cover
-class: hide-logo, center, bottom
+class: hide-logo, center, bottom, hide-footer
 
 .imagelab[
 When we stand together as one
 ]
 
 ---
+class: hide-footer
 
 # mzesalike
 
 Not an official product.
 
-- `r icon::fa("twitter")` @chainsawriot 
-- `r icon::fa("github")` [chainsawriot/mzesalike](https://github.com/chainsawriot/mzesalike)
+- `r fontawesome::fa("twitter")` @chainsawriot 
+- `r fontawesome::fa("github")` [chainsawriot/mzesalike](https://github.com/chainsawriot/mzesalike)
