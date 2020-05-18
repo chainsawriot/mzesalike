@@ -1,4 +1,4 @@
-# mzesalike
+# mzesalike <img src="man/figures/logo.png" align="right" height="200" />
 
 Previously known as `mzes_alike`
 
