@@ -33,7 +33,7 @@ If you are using RStudio, you can create a new `mzesalike` presentation by
 If you are not using RStudio (e.g. me), you can create a new presentation like so:
 
 ```r
-## Create a new direction
+## Create a new directory
 dir.create('demo')
 
 ## Create a template
